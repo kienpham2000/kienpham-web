@@ -8,7 +8,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Kien Pham</title>
         <meta name="description" content="Kien Pham website">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
@@ -22,7 +23,6 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-
         <div class="container">
             <div class="header">
                 <ul class="nav nav-pills">
@@ -33,36 +33,68 @@
                 <br />
             </div>
 
-            <p>
-                <img src="images/kien_pham_portrait.jpg"/>
-            </p>
-            
+            <div class="jumbotron">
+                    <img src="images/kien_pham_portrait.jpg" alt="Kien Pham Portrait" class="img-responsive"/>
+                <h2 class="text-left">Hola!</h2>
+                <p class="text-left">My name is Kien Pham and I'm a software engineer.</p>
+            </div>
+
             <div class="row">
                 <div class="col-lg-12">
-                    <h4>Hola!</h4>
-                    <p>I'm a software engineer. Check out my works on my Projects page</p>
+                <h2><a id="projects">Projects</a></h2>
+                </div>
 
-                    <h2>Projects</h2>
+                <div class="col-lg-6">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                        <h4>Services</h4></div>
 
-                    <ul>
-                        <li><a href="http://happyshadowstudio.com">HappyShadowStudio.com</a> - Photography service</li>
 
-                        <li><a href="http://stockdelta.com">StockDelta.com</a> - Get alert when stock prices changed</li>
+                    <div class="list-group">
+                      <a href="http://happyshadowstudio.com" class="list-group-item"><h4>Happy Shadow Studio</h4>
+                        <p class="list-group-item-text">Photography service</p>
+                      </a>
 
-                        <li><a href="http://hotelx.co">HotelX.co</a> - Changing the way people date</li>
+                      <a href="http://stockdelta.com" class="list-group-item">
+                        <h4>Stock Delta</h4>
+                        <p class="list-group-item-text">Get alert when stock prices changed</p>
+                      </a>    
 
-                        <li><a href="https://github.com/sendgridlabs/cookiecutter-flaskrestful">cookiecutter-flaskrestful</a> - Flask-RESTful template for cookiecutter</li>
+                      <a href="http://hotelx.co" class="list-group-item"><h4>Hotelx</h4>
+                        <p class="list-group-item-text">Changing the way people date</p>
+                      </a>
 
-                        <li><a href="https://github.com/kienpham2000/airbrake-flask">airbrake-flask</a> - Python library to send exception error to Airbrake.io</li>
-                    </ul>
+                    </div>
+                </div>
+                </div>
 
-                    <h3>Contact</h3>
-                    <ul>
-                        <li><a href="https://www.facebook.com/ilovehappyshadowstudio">Facebook</a></li>
-                    </ul>
+                <div class="col-lg-6">
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h4>Open Source Projects</h4></div>
+
+                    <div class="list-group">
+                      <a href="https://github.com/sendgridlabs/cookiecutter-flaskrestful" class="list-group-item"><h4>cookiecutter-flaskrestful</h4>
+                        <p class="list-group-item-text">Flask-RESTful template for cookiecutter</p>
+                      </a>
+
+                      <a href="https://github.com/kienpham2000/airbrake-flask" class="list-group-item"><h4>airbrake-flask</h4>
+                        <p class="list-group-item-text">Python library to send exception error to Airbrake.io</p>
+                      </a>
+
+                    </div>
+                </div>
 
                 </div>
+
             </div>
+            
+            <h3><a id="contact">Contact</a></h3>
+            <ul>
+                <li><a href="https://www.facebook.com/ilovehappyshadowstudio">Facebook</a></li>
+                <li>
+                    <a href="http://www.linkedin.com/in/kienpham2000">Linkedin</a>
+                </li>
+            </ul>
 
             <div class="footer">
                 <p><a href="/">Kien Pham</a> - 
@@ -70,9 +102,7 @@
                     <a href="#contact">Contact</a>
                 </p>
             </div>
-
         </div>
-
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
@@ -80,14 +110,13 @@
         <!-- endbower -->
         <!-- endbuild -->
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
+            ga('create','UA-68379-1');ga('send','pageview');
         </script>
 
         <!-- build:js scripts/main.js -->
