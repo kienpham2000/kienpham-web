@@ -6,6 +6,9 @@ This repo contains code for the [kienpham.com](http://kienpham.com) homepage. It
 Start the site locally
 ---
 
+	# install all required packages
+	$ npm install
+
 	# run grunt to generate all static assets
 	$ grunt
 	
