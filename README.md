@@ -1,7 +1,7 @@
 kienpham-web
 ============
 
-This repo contains code for the [http://kienpham.com](kienpham.com) homepage. It was generated using yeoman and web-app generator
+This repo contains code for the [kienpham.com](http://kienpham.com) homepage. It was generated using yeoman and web-app generator
 
 Start the site locally
 ---
