@@ -9,14 +9,20 @@
         <title>Kien Pham</title>
         <meta name="description" content="Kien Pham website">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <link rel="shortcut icon" href="/favicon.ico">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <!-- endbower -->
+        <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
         <!-- build:js scripts/vendor/modernizr.js -->
         <script src="bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
+
     </head>
     <body>
         <!--[if lt IE 10]>
@@ -39,16 +45,16 @@
                 <p class="text-left">My name is Kien Pham, I'm a software engineer and I love to sing...and dance, and eat good foods and travel to beautiful places and do many interesting things!
                 <br /><br />
 
-                I'm currently residing in one of the beautiful city of Southern California with my beautiful girlfriend. I call her heo xinh xinh (beautiful pig) and she calls me heo manly (manly pig). 
+                I'm currently residing in one of the beautiful city of Southern California with my beautiful girlfriend. I call her heo xinh xinh (beautiful pig) and she calls me heo manly (manly pig).
                 <br /><br />
 
-                I wanted to use this site to showcase my amazing works. I know you will enjoy it. Have a nice day and be nice to others! 
+                I wanted to use this site to showcase my amazing works. I know you will enjoy it. Have a nice day and be nice to others!
                 <br /><br />
 
                 By the way, never give up on your dreams, you got to keep trying!
                 <br /><br />
 
-                - Kiên 
+                - Kiên
                 </p>
             </div>
 
@@ -71,7 +77,7 @@
                       <a href="http://stockdelta.com" class="list-group-item">
                         <h4>Stock Delta</h4>
                         <p class="list-group-item-text">Do you want to get into the stock market? Want to do day trading? This site is for you! Get alert when stock prices changed, up or down.</p>
-                      </a>    
+                      </a>
 
                       <a href="http://hotelx.co" class="list-group-item"><h4>Hotelx</h4>
                         <p class="list-group-item-text">Traditional dating is broken and I want to fix that. Changing the way you meet your next wife or husband</p>
@@ -106,7 +112,7 @@
                         <p class="list-group-item-text">Happy Shadow Studio website</p>
                       </a>
 
-                      
+
 
                     </div>
                 </div>
@@ -114,7 +120,7 @@
                 </div>
 
             </div>
-            
+
             <h3><a id="contact">Contact</a></h3>
             <ul>
                 <li><a href="https://www.facebook.com/ilovehappyshadowstudio">Facebook</a></li>
@@ -130,8 +136,8 @@
             </div>
 
             <div class="footer">
-                <p><a href="/">Kien Pham</a> - 
-                    <a href="#projects">Projects</a> - 
+                <p><a href="/">Kien Pham</a> -
+                    <a href="#projects">Projects</a> -
                     <a href="#contact">Contact</a>
                 </p>
             </div>
@@ -139,10 +145,11 @@
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
-        <script src="bower_components/jquery/jquery.js"></script>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -152,10 +159,23 @@
             ga('create','UA-68379-1');ga('send','pageview');
         </script>
 
-        <!-- build:js scripts/main.js -->
-        <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
+        <!-- build:js scripts/plugins.js -->
+        <script src="bower_components/bootstrap/js/affix.js"></script>
+        <script src="bower_components/bootstrap/js/alert.js"></script>
+        <script src="bower_components/bootstrap/js/dropdown.js"></script>
+        <script src="bower_components/bootstrap/js/tooltip.js"></script>
+        <script src="bower_components/bootstrap/js/modal.js"></script>
+        <script src="bower_components/bootstrap/js/transition.js"></script>
+        <script src="bower_components/bootstrap/js/button.js"></script>
+        <script src="bower_components/bootstrap/js/popover.js"></script>
+        <script src="bower_components/bootstrap/js/carousel.js"></script>
+        <script src="bower_components/bootstrap/js/scrollspy.js"></script>
+        <script src="bower_components/bootstrap/js/collapse.js"></script>
+        <script src="bower_components/bootstrap/js/tab.js"></script>
         <!-- endbuild -->
 
-
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
 </body>
 </html>
