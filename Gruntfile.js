@@ -1,4 +1,4 @@
-// Generated on 2014-03-11 using generator-webapp 0.4.8
+// Generated on 2014-03-12 using generator-webapp 0.4.8
 'use strict';
 
 // # Globbing
@@ -62,7 +62,7 @@ module.exports = function (grunt) {
         // The actual grunt server settings
         connect: {
             options: {
-                port: 2000,
+                port: 9000,
                 livereload: 35729,
                 // Change this to '0.0.0.0' to access the server from outside
                 hostname: 'localhost'
