@@ -4,6 +4,9 @@
   "engines": {
     "node": ">=4.2.2"
   },
+  "scripts": {
+    "watch": "python -m http.server 8080"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-cache": "^0.4.3",
